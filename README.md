@@ -12,28 +12,15 @@
 
 ## Screenshots:
 
-![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
+![Screenshot 1](screenshot.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot2.png)
+![Screenshot 2](screenshot2.png)
 
-![Screenshot 3](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot3.png)
+![Screenshot 3](screenshot3.png)
 
-![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
+![Screenshot 4](screenshot4.png)
 
-
-# Run using Docker 
-
-```
-$ git clone 
-$ cd repo
-$ export JEKYLL_VERSION=3.8
-$ docker run --rm --volume="$PWD" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
-$ jekyll serve
-```
 
 ## Licence
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-
-

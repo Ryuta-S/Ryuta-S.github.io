@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Jekyll Theme Built For Developers
+title: Ryuta's website
+subtitle: Portfolio and Blog
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://ryuta-s.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -11,41 +11,43 @@ urls:
       url: /blog
     - text: About Me
       url: /about
-    - text: Contact Me
-      url : /contact
+    # - text: Contact Me
+    #   url : /contact
     - text: Styleguide
       url: /styleguide
 
-# Edit these details 
+# Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Ryuta Shitomi
+author_bio: NAISTのM1.　コンピュータビジョンの研究をしています。
+author_email: ""
+author_location: Nara,Japan
+author_website_url: "http://ryuta-s.github.io"
 
-author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+author_work_experiences:
+            - company_name: グローバルウォーカーズ株式会社
+              company_logo: global_walkers_logo.png
+              company_url: https://www.globalwalkers.co.jp
+              designation: Deep Learning Engineer Internship
+              description: 2019/2 ~ 2019/11. セマンティックセグメンテーションモデルの開発
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: kgu_logo_new.png
+                college_name: 情報通信工学科
+                college_url: https://kogakuin.ac.jp
+                college_degree: 工学院大学
+                description: 2016/4 ~ 2020/3 Bachelor of Engineering
                 visibility: true
+              - college_logo: naist_logo.jpg
+                college_name: 先端科学技術研究科　情報科学領域
+                college_url: https://www.naist.jp
+                college_degree: 奈良先端科学技術大学院大学
+                description: 2020/4 ~
+                visibility: true
+
 
 author_project_details:
               - project_thumbnail: gamershub.png
@@ -60,22 +62,22 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: SujayKundu777
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+# twitter_username: SujayKundu777
+github_username:  Ryuta-S
+# facebook_username: johndoe
+linkedin_username: ryutashitomi
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu  
+disqus_shortname: ryuta-s
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: Ryuta-S
 
 # syntax highlighter
 markdown: kramdown
@@ -83,7 +85,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+# google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -104,7 +106,7 @@ paginate: 8
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify 
+# minify
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -119,5 +121,3 @@ compress_html:
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
-
-
