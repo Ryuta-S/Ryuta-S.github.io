@@ -18,7 +18,7 @@ urls:
 
 # Edit these details
 
-author_logo: profile.png
+author_logo: home_logo.png
 author: Ryuta Shitomi
 author_bio: NAISTのM1.　コンピュータビジョンの研究をしています。
 author_email: ""
@@ -55,11 +55,11 @@ author_project_details:
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
                 visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
-                visibility: true
+              # - project_thumbnail: programmingebooks.png
+              #   project_title: Programming Ebooks
+              #   project_description: A Platform to easily find and read programming books
+              #   project_url: https://programmingebooks.com
+              #   visibility: true
 
 # social links
 # twitter_username: SujayKundu777
