@@ -1,4 +1,4 @@
-title: Ryuta's website
+title: Ryuta Shitomi
 subtitle: Portfolio and Blog
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
@@ -77,7 +77,7 @@ linkedin_username: ryutashitomi
 disqus_shortname: ryuta-s
 
 # wakatime username (coding activity)
-wakatime_username: Ryuta-S
+wakatime_username: Ryuta_S
 
 # syntax highlighter
 markdown: kramdown
