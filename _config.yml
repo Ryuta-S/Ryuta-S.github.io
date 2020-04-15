@@ -1,12 +1,19 @@
+---
 title: Ryuta Shitomi
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 subtitle: Portfolio and Blog
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
-
-url: "https://ryuta-s.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-
+description: devlopr-jekyll is a Jekyll Theme Built For Developers
+url: https://ryuta-s.github.io
+baseurl: ''
 urls:
+<<<<<<< HEAD
     - text: Blog
       url: /blog
     - text: About Me
@@ -19,37 +26,42 @@ urls:
 # Edit these details
 
 author_logo: home_logo.png
+=======
+- text: Blog
+  url: "/blog"
+- text: About Me
+  url: "/about"
+- text: Styleguide
+  url: "/styleguide"
+author_logo: profile.png
+>>>>>>> b4cbc9447d5269b97b50183c746999c6909b578b
 author: Ryuta Shitomi
 author_bio: NAISTのM1.　コンピュータビジョンの研究をしています。
-author_email: ""
+author_email: ''
 author_location: Nara,Japan
-author_website_url: "http://ryuta-s.github.io"
-
+author_website_url: http://ryuta-s.github.io
 author_work_experiences:
-            - company_name: グローバルウォーカーズ株式会社
-              company_logo: global_walkers_logo.png
-              company_url: https://www.globalwalkers.co.jp
-              designation: Deep Learning Engineer Internship
-              description: 2019/2 ~ 2019/11. セマンティックセグメンテーションモデルの開発
-              visibility: true
-
-
+- company_name: グローバルウォーカーズ株式会社
+  company_logo: global_walkers_logo.png
+  company_url: https://www.globalwalkers.co.jp
+  designation: Deep Learning Engineer Internship
+  description: 2019/2 ~ 2019/11. セマンティックセグメンテーションモデルの開発
+  visibility: true
 author_education_details:
-              - college_logo: kgu_logo_new.png
-                college_name: 情報通信工学科
-                college_url: https://kogakuin.ac.jp
-                college_degree: 工学院大学
-                description: 2016/4 ~ 2020/3 Bachelor of Engineering
-                visibility: true
-              - college_logo: naist_logo.jpg
-                college_name: 先端科学技術研究科　情報科学領域
-                college_url: https://www.naist.jp
-                college_degree: 奈良先端科学技術大学院大学
-                description: 2020/4 ~
-                visibility: true
-
-
+- college_logo: kgu_logo_new.png
+  college_name: 情報通信工学科
+  college_url: https://kogakuin.ac.jp
+  college_degree: 工学院大学
+  description: 2016/4 ~ 2020/3 Bachelor of Engineering
+  visibility: true
+- college_logo: naist_logo.jpg
+  college_name: 先端科学技術研究科　情報科学領域
+  college_url: https://www.naist.jp
+  college_degree: 奈良先端科学技術大学院大学
+  description: 2020/4 ~
+  visibility: true
 author_project_details:
+<<<<<<< HEAD
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
@@ -65,59 +77,43 @@ author_project_details:
 # twitter_username: SujayKundu777
 github_username:  Ryuta-S
 # facebook_username: johndoe
+=======
+- project_thumbnail: gamershub.png
+  project_title: Gamers Hub
+  project_description: A Platform built for Gamers and Game Devs
+  project_url: https://gamershub.in
+  visibility: true
+- project_thumbnail: programmingebooks.png
+  project_title: Programming Ebooks
+  project_description: A Platform to easily find and read programming books
+  project_url: https://programmingebooks.com
+  visibility: true
+github_username: Ryuta-S
+>>>>>>> b4cbc9447d5269b97b50183c746999c6909b578b
 linkedin_username: ryutashitomi
-# behance_username: johndoe
-# instagram_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
-
-#for comments using disqus
 disqus_shortname: ryuta-s
-
-# wakatime username (coding activity)
 wakatime_username: Ryuta_S
-
-# syntax highlighter
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-
-# google analytics
-# google_analytics: UA-46783401-10
-
-# Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
-
-# dont touch this unless required
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  # - jekyll-archives
-
-# pagination of posts
+- jekyll-paginate
+- jekyll-gist
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
 paginate: 8
 per_page: 4
 paginate_path: "/blog/page/:num/"
-
-# minify
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments:
+  - "<!-- "
+  - " -->"
   endings: all
   ignore:
-    envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+    envs:
+    - development
