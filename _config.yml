@@ -26,7 +26,7 @@ urls:
 
 author_logo: home_logo.png
 author: Ryuta Shitomi
-author_bio: NAISTのM1.　コンピュータビジョンの研究をしています。
+author_bio: 'NAIST M1.　Interest: computer vision, machine learning.'
 author_email: ''
 author_location: Nara,Japan
 author_website_url: http://ryuta-s.github.io
@@ -41,13 +41,19 @@ author_work_experiences:
 
 author_education_details:
     - college_logo: kgu_logo_new.png
-      college_name: 情報通信工学科
-      college_url: https://kogakuin.ac.jp
+      college_name:
+        - name: 情報学部　情報通信工学科
+        - name: 画像情報メディア研究室
+          url : https://www.ns.kogakuin.ac.jp/~wwa1071/
+      college_url: https://www.kogakuin.ac.jp
       college_degree: 工学院大学
       description: 2016/4 ~ 2020/3 Bachelor of Engineering
       visibility: true
     - college_logo: naist_logo.jpg
-      college_name: 先端科学技術研究科　情報科学領域
+      college_name:
+        - name: 先端科学技術研究科　情報科学領域
+        - name: 光メディアインタフェース研究室
+          url : http://omilab.naist.jp/index-jp.html
       college_url: https://www.naist.jp
       college_degree: 奈良先端科学技術大学院大学
       description: 2020/4 ~
@@ -55,9 +61,9 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: TBD.
+                project_description:
+                project_url:
                 visibility: true
               # - project_thumbnail: programmingebooks.png
               #   project_title: Programming Ebooks
