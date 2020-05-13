@@ -55,7 +55,7 @@ header {
 .blog-post:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-  
+
 .social-link {
     color: #262222;
     font-size: 15px;
@@ -87,8 +87,8 @@ footer {
 }
 
 .project-img {
-    width: 300px;
-    height: 200px;
+    width: 170px;
+    height: 120px;
 }
 
 .author-profile-img {
@@ -179,12 +179,12 @@ code {
     }
 }
 
-  
-  /* 
+
+  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
+
   @media (min-width: 481px) and (max-width: 767px) {
 
     #mc-embedded-subscribe-form{
@@ -217,7 +217,7 @@ code {
     }
 
   }
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
@@ -284,13 +284,13 @@ code {
 
 }
 
-  /* 
+  /*
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
+
   @media (min-width: 1025px) and (max-width: 1280px) {
-    
+
     #mc-embedded-subscribe-form{
         width: 100%;
         padding: 50px;
@@ -316,7 +316,7 @@ code {
     }
 
   }
- /* 
+ /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
@@ -328,7 +328,7 @@ code {
         width: 100%;
         padding: 50px;
     }
-    
+
     #mc_embed_signup_scroll_footer{
         margin-left:25%;
         margin-right: 25%;
@@ -347,7 +347,7 @@ code {
     #mc-embedded-subscribe_footer{
         margin-top: 30px;
     }
-    
+
 
 }
  /* (1920x1080) Full HD Display */
@@ -357,7 +357,7 @@ code {
         width: 100%;
         padding: 50px;
     }
-    
+
     #mc_embed_signup_scroll_footer{
         margin-left:25%;
         margin-right: 25%;
@@ -447,5 +447,4 @@ code {
 .highlight .vg { color: #aa0000 } /* Name.Variable.Global */
 .highlight .vi { color: #aa0000 } /* Name.Variable.Instance */
 .highlight .vm { color: #aa0000 } /* Name.Variable.Magic */
-.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */ 
-
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
