@@ -52,31 +52,22 @@ author_education_details:
   description: 2020/4 ~
   visibility: true
 author_project_details:
-              - project_thumbnail: finding_lane.gif
-                project_title: Finding Lane
-                project_description: 車線検知プログラム
-                project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
-                visibility: true
-              - project_thumbnail: traffic sign classifier.gif
-                project_title: traffic sign classifier
-                project_description: 道路標識の認識プログラム
-                project_url: https://github.com/Ryuta-S/
-                visibility: false
-              - project_thumbnail: kalmanfiler.gif
-                project_title: kalman filter
-                project_description: カルマンフィルターを用いた自己位置推定プログラム
-                project_url: https"//github.com/Ryuta-S/
-                visibility: false
-              # - project_thumbnail: programmingebooks.png
-              #   project_title: Programming Ebooks
-              #   project_description: A Platform to easily find and read programming books
-              #   project_url: https://programmingebooks.com
-              #   visibility: true
-
-# social links
-# twitter_username: SujayKundu777
-github_username:  Ryuta-S
-# facebook_username: johndoe
+- project_thumbnail: finding_lane.gif
+  project_title: Finding Lane
+  project_description: 車線検知プログラム
+  project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
+  visibility: true
+- project_thumbnail: traffic sign classifier.gif
+  project_title: traffic sign classifier
+  project_description: 道路標識の認識プログラム
+  project_url: https://github.com/Ryuta-S/
+  visibility: false
+- project_thumbnail: kalmanfiler.gif
+  project_title: kalman filter
+  project_description: カルマンフィルターを用いた自己位置推定プログラム
+  project_url: https"//github.com/Ryuta-S/
+  visibility: false
+github_username: Ryuta-S
 linkedin_username: ryutashitomi
 wakatime_username: Ryuta_S
 markdown: kramdown
