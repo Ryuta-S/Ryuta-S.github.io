@@ -57,11 +57,11 @@ author_project_details:
   project_description: 車線検知プログラム
   project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
   visibility: true
-- project_thumbnail: traffic sign classifier.gif
+- project_thumbnail: traffic_sign_classifier.gif
   project_title: traffic sign classifier
   project_description: 道路標識の認識プログラム
-  project_url: https://github.com/Ryuta-S/
-  visibility: false
+  project_url: https://github.com/Ryuta-S/traffic_sign_classifier
+  visibility: true
 - project_thumbnail: kalmanfiler.gif
   project_title: kalman filter
   project_description: カルマンフィルターを用いた自己位置推定プログラム
