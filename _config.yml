@@ -66,10 +66,7 @@ author_project_details:
   project_title: Pyramid Pooling Attention Network for Semantic Segmentation
   project_description: セマンティックセグメンテーションのための新しいネットワーク
   project_url: https://github.com/Ryuta-S/ppanet
-  visibility: True
-
-
-
+  visibility: true
 github_username: Ryuta-S
 linkedin_username: ryutashitomi
 wakatime_username: Ryuta_S
