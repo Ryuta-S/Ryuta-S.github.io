@@ -62,11 +62,14 @@ author_project_details:
   project_description: 道路標識の認識プログラム
   project_url: https://github.com/Ryuta-S/traffic_sign_classifier
   visibility: true
-- project_thumbnail: kalmanfiler.gif
-  project_title: kalman filter
-  project_description: カルマンフィルターを用いた自己位置推定プログラム
-  project_url: https"//github.com/Ryuta-S/
-  visibility: false
+- project_thumbnail: ppanet.gif
+  project_title: Pyramid Pooling Attention Network for Semantic Segmentation
+  project_description: セマンティックセグメンテーションのための新しいネットワーク
+  project_url: https://github.com/Ryuta-S/ppanet
+  visibility: True
+
+
+
 github_username: Ryuta-S
 linkedin_username: ryutashitomi
 wakatime_username: Ryuta_S
