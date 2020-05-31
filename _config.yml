@@ -25,48 +25,51 @@ author_bio: 'NAIST M1.　Interest: computer vision, machine learning.'
 author_email: ''
 author_location: Nara,Japan
 author_website_url: http://ryuta-s.github.io
+
 author_work_experiences:
-- company_name: グローバルウォーカーズ株式会社
-  company_logo: global_walkers_logo.png
-  company_url: https://www.globalwalkers.co.jp
-  designation: Deep Learning Engineer Internship
-  description: 2019/2 ~ 2019/11. セマンティックセグメンテーションモデルの開発
-  visibility: true
+  - company_name: グローバルウォーカーズ株式会社
+    company_logo: global_walkers_logo.png
+    company_url: https://www.globalwalkers.co.jp
+    designation: Deep Learning Engineer Internship
+    description: 2019/2 ~ 2019/11. セマンティックセグメンテーションモデルの開発
+    visibility: true
+
 author_education_details:
-- college_logo: kgu_logo_new.png
-  college_name:
-  - name: 情報学部　情報通信工学科
-  - name: 画像情報メディア研究室
-    url: https://www.ns.kogakuin.ac.jp/~wwa1071/
-  college_url: https://www.kogakuin.ac.jp
-  college_degree: 工学院大学
-  description: 2016/4 ~ 2020/3 Bachelor of Engineering
-  visibility: true
-- college_logo: naist_logo.jpg
-  college_name:
-  - name: 先端科学技術研究科　情報科学領域
-  - name: 光メディアインタフェース研究室
-    url: http://omilab.naist.jp/index-jp.html
-  college_url: https://www.naist.jp
-  college_degree: 奈良先端科学技術大学院大学
-  description: 2020/4 ~
-  visibility: true
+  - college_logo: kgu_logo_new.png
+    college_name:
+    - name: 情報学部　情報通信工学科
+    - name: 画像情報メディア研究室
+      url: https://www.ns.kogakuin.ac.jp/~wwa1071/
+    college_url: https://www.kogakuin.ac.jp
+    college_degree: 工学院大学
+    description: 2016/4 ~ 2020/3 Bachelor of Engineering
+    visibility: true
+  - college_logo: naist_logo.jpg
+    college_name:
+    - name: 先端科学技術研究科　情報科学領域
+    - name: 光メディアインタフェース研究室
+      url: http://omilab.naist.jp/index-jp.html
+    college_url: https://www.naist.jp
+    college_degree: 奈良先端科学技術大学院大学
+    description: 2020/4 ~
+    visibility: true
+
 author_project_details:
-- project_thumbnail: finding_lane.gif
-  project_title: Finding Lane
-  project_description: 車線検知プログラム
-  project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
-  visibility: true
-- project_thumbnail: traffic_sign_classifier.gif
-  project_title: traffic sign classifier
-  project_description: 道路標識の認識プログラム
-  project_url: https://github.com/Ryuta-S/traffic_sign_classifier
-  visibility: true
-- project_thumbnail: ppanet.gif
-  project_title: Pyramid Pooling Attention Network for Semantic Segmentation
-  project_description: セマンティックセグメンテーションのための新しいネットワーク
-  project_url: https://github.com/Ryuta-S/ppanet
-  visibility: True
+  - project_thumbnail: finding_lane.gif
+    project_title: Finding Lane
+    project_info: 車線検知プログラム
+    project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
+    visibility: true
+  - project_thumbnail: traffic_sign_classifier.gif
+    project_title: traffic sign classifier
+    project_info: 道路標識の認識プログラム
+    project_url: https://github.com/Ryuta-S/traffic_sign_classifier
+    visibility: true
+  - project_thumbnail: ppanet.gif
+    project_title: Pyramid Pooling Attention Network for Semantic Segmentation
+    project_info: セマンティックセグメンテーションのための新しいネットワーク
+    project_url: https://github.com/Ryuta-S/ppanet
+    visibility: True
 
 
 
