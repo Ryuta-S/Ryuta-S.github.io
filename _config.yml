@@ -52,17 +52,17 @@ author_education_details:
   description: 2020/4 ~
   visibility: true
 author_project_details:
-- project_thumbnail: finding_lane.gif
+- project_thumbnail: finding_lane_play.gif
   project_title: Finding Lane
   project_info: 車線検知プログラム
   project_url: https://github.com/Ryuta-S/CarND-Advanced-Lane-Lines
   visibility: true
-- project_thumbnail: traffic_sign_classifier.gif
+- project_thumbnail: traffic_sign_classifier_play.gif
   project_title: traffic sign classifier
   project_info: 道路標識の認識プログラム
   project_url: https://github.com/Ryuta-S/traffic_sign_classifier
   visibility: true
-- project_thumbnail: ppanet.gif
+- project_thumbnail: ppanet_play.gif
   project_title: Pyramid Pooling Attention Network for Semantic Segmentation
   project_info: セマンティックセグメンテーションのための新しいネットワーク
   project_url: https://github.com/Ryuta-S/ppanet
