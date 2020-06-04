@@ -21,7 +21,9 @@ urls:
   url: "/styleguide"
 author_logo: home_logo.png
 author: Ryuta Shitomi
-author_bio: 'NAIST M1.　Interest: computer vision, machine learning.'
+author_bio: "I am a first-year master's student in Nara Institute of Science and Technology.<br>
+Interst: Computer Vision, computational photography, machine learning"
+Interest: computer vision, machine learning.'
 author_email: shitomi.ryuta.sn6[at]is.naist.jp
 author_location: Nara,Japan
 author_website_url: http://ryuta-s.github.io
